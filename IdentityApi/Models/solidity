@@ -1,0 +1,48 @@
+pragma solidity ^0.4.0;
+
+contract Logger {
+    string logName;
+    address public owner; 
+    uint public creationTime = now;
+    uint public lastLog = 0;
+    modifier onlyBy(address _account){
+        require(
+            msg.sender == _account, "Sender not authorized"
+            );
+            _;
+    }
+    Log[] logArray;
+
+    
+    constructor(string name) public {
+        logName = name;
+        owner = msg.sender;
+    }
+    
+    struct Log {
+        string class;
+        string hash;
+        uint docId;
+    }
+    
+    function NewLog(string class, string hash, uint docId) public {
+        Log memory newLog;
+        newLog.class = class;
+        newLog.hash = hash;
+        newLog.docId = docId;
+        
+        logArray.push(newLog);
+    }
+    
+    function getLog(uint logNum) public returns (string class, string hash, uint docId){
+        require (logNum < logArray.length);
+        return (logArray[logNum].class, 
+            logArray[logNum].hash,
+            logArray[logNum].docId);
+    }
+    
+    function getLogState() returns (uint LastLog){
+        require(logArray.length > 0);
+        return logArray.length - 1;
+    }
+}

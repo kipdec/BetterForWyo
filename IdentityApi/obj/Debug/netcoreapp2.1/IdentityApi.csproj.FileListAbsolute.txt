@@ -1,0 +1,14 @@
+/Users/kip/hackathon/BetterForWyo/IdentityApi/bin/Debug/netcoreapp2.1/IdentityApi.deps.json
+/Users/kip/hackathon/BetterForWyo/IdentityApi/bin/Debug/netcoreapp2.1/IdentityApi.runtimeconfig.json
+/Users/kip/hackathon/BetterForWyo/IdentityApi/bin/Debug/netcoreapp2.1/IdentityApi.runtimeconfig.dev.json
+/Users/kip/hackathon/BetterForWyo/IdentityApi/bin/Debug/netcoreapp2.1/IdentityApi.dll
+/Users/kip/hackathon/BetterForWyo/IdentityApi/bin/Debug/netcoreapp2.1/IdentityApi.pdb
+/Users/kip/hackathon/BetterForWyo/IdentityApi/obj/Debug/netcoreapp2.1/IdentityApi.csprojAssemblyReference.cache
+/Users/kip/hackathon/BetterForWyo/IdentityApi/obj/Debug/netcoreapp2.1/IdentityApi.csproj.CoreCompileInputs.cache
+/Users/kip/hackathon/BetterForWyo/IdentityApi/obj/Debug/netcoreapp2.1/IdentityApi.RazorAssemblyInfo.cache
+/Users/kip/hackathon/BetterForWyo/IdentityApi/obj/Debug/netcoreapp2.1/IdentityApi.RazorAssemblyInfo.cs
+/Users/kip/hackathon/BetterForWyo/IdentityApi/obj/Debug/netcoreapp2.1/IdentityApi.AssemblyInfoInputs.cache
+/Users/kip/hackathon/BetterForWyo/IdentityApi/obj/Debug/netcoreapp2.1/IdentityApi.AssemblyInfo.cs
+/Users/kip/hackathon/BetterForWyo/IdentityApi/obj/Debug/netcoreapp2.1/IdentityApi.RazorTargetAssemblyInfo.cache
+/Users/kip/hackathon/BetterForWyo/IdentityApi/obj/Debug/netcoreapp2.1/IdentityApi.dll
+/Users/kip/hackathon/BetterForWyo/IdentityApi/obj/Debug/netcoreapp2.1/IdentityApi.pdb
